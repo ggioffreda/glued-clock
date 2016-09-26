@@ -1,0 +1,30 @@
+{
+  "name": "glued-clock",
+  "version": "0.1.0",
+  "description": "Send a message though the bus every minute, hour and day",
+  "main": "index.js",
+  "dependencies": {
+    "glued-common": "^0.1.3",
+    "moment": "^2.15.1"
+  },
+  "devDependencies": {},
+  "bin": {
+    "glued-clock": "bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggioffreda/glued-clock.git"
+  },
+  "keywords": [
+    "glued",
+    "gluedjs",
+    "glued-js",
+    "clock"
+  ],
+  "author": "Giovanni Gioffreda <giovanni.gioffreda@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggioffreda/glued-clock/issues"
+  },
+  "homepage": "https://github.com/ggioffreda/glued-clock#readme"
+}
