@@ -5,7 +5,7 @@ Easy way of adding a clock to your Glue ecosystem.
 
 The clock will broadcast the messages listed below, with a maximum delay of 
 166ms at most, plus bus latency. You can expect no more than 200-250ms on a 
-decent network. The payload on the message is always the timestamp in
+decent network. The payload of the message is always the timestamp in
 milliseconds, as returned by the `Date.now()` function.
 
 List of topics and their frequency:
