@@ -1,5 +1,5 @@
-GluedJS - Clock
-================
+Glue - Clock
+============
 
 Easy way of adding a clock to your Glue ecosystem.
 
@@ -41,5 +41,5 @@ To run the service you can install with the `-g` flag and then run the
 The clock will try and connect to the AMQP message bus using the default
 values, you can customise them by setting the *GLUED_AMQP* and 
 *GLUED_MESSAGE_BUS* environment variables. You can find more information in the
-[GluedJS - Common Utilities](https://github.com/ggioffreda/glued-common)
+[Glue Common Utilities](https://github.com/ggioffreda/glued-common)
 documentation.

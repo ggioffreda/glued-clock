@@ -1,10 +1,10 @@
 {
   "name": "glued-clock",
   "version": "0.1.0",
-  "description": "Send a message though the bus every minute, hour and day",
+  "description": "Send messages through the bus every minute, hour and day",
   "main": "index.js",
   "dependencies": {
-    "glued-common": "^0.1.3",
+    "glued-common": "^0.2.0",
     "moment": "^2.15.1"
   },
   "devDependencies": {},
@@ -16,9 +16,8 @@
     "url": "git+https://github.com/ggioffreda/glued-clock.git"
   },
   "keywords": [
+    "glue",
     "glued",
-    "gluedjs",
-    "glued-js",
     "clock"
   ],
   "author": "Giovanni Gioffreda <giovanni.gioffreda@gmail.com>",

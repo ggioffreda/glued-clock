@@ -56,6 +56,14 @@ function Clock(clockFile) {
     return currentState;
   };
 
+  this.getName = function () {
+    return 'clock';
+  };
+
+  this.getState = function () {
+    return state;
+  };
+
   this.requires = function (dependency) {
     return 'message-bus' === dependency;
   };
