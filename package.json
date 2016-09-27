@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "bin": {
-    "glued-clock": "bin/server.js"
+    "glued-clock": "bin/service.js"
   },
   "repository": {
     "type": "git",
