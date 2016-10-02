@@ -26,7 +26,7 @@ function Clock (clockFile) {
   }
 
   function _publish (messageBusChannel, context, parts, nowTime) {
-    messageBusChannel.publish([ 'clock', context ].concat(parts).join('.'), new Buffer(JSON.stringify(nowTime)))
+    messageBusChannel.publish([ 'clock', context ].concat(parts).join('.'), nowTime)
   }
 
   this.tick = function (messageBusChannel, state) {
