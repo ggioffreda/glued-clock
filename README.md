@@ -3,6 +3,7 @@ Glue - Clock
 
 Easy way of adding a clock to your Glue ecosystem.
 
+[![Build Status](https://travis-ci.org/ggioffreda/glued-clock.svg?branch=master)](https://travis-ci.org/ggioffreda/glued-clock)
 [![JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
 Usage
