@@ -1,6 +1,6 @@
 {
   "name": "glued-clock",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Send messages through the bus every minute, hour and day",
   "main": "clock.js",
   "dependencies": {
