@@ -2,7 +2,7 @@
   "name": "glued-clock",
   "version": "0.2.0",
   "description": "Send messages through the bus every minute, hour and day",
-  "main": "index.js",
+  "main": "clock.js",
   "dependencies": {
     "glued-common": "^0.3.3",
     "moment": "^2.15.1"
